@@ -5,7 +5,7 @@
       <fa-icon :icon="['far', 'hand-peace']" class="icon"/>
     </span>
     <span class="about">
-      An unconventional full-stack developer also working in computer graphics and linguistics.
+      An unconventional full-stack developer studying computer graphics and linguistics.
     </span>
     <span class="about">
       <span class="funny" title="Dreams are not guaranteed, unfortunately">Creating dreams</span> with <span class="marked">Vue</span> and <span class="marked">JavaScript</span>.
@@ -47,6 +47,7 @@
     display: block
     margin: 1.5rem 0
     color: var(--secondary)
+    font-family: var(--font-second)
     .funny
       border-bottom: 1px dashed var(--secondary)
   .button

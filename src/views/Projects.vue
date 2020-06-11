@@ -4,6 +4,10 @@
       <fa-icon :icon="['far', 'file-code']" class="icon" />
       Projects
     </h1>
+    <div class="about">
+      A list of various projects I've been involved in. Feel free to click
+      in on the project to read more.
+    </div>
     <div class="item">
       <div class="header">
         Lorem Ipsum
@@ -53,6 +57,11 @@ export default Vue.extend({
   .main
     padding: 1rem
     overflow: hidden
+  .about
+    margin-bottom: 1rem
+    color: var(--secondary)
+    line-height: 2
+    font-size: .8rem
   .item
     padding: .5rem 1.5rem
     background: rgb(#333, .05)

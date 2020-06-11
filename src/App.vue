@@ -39,15 +39,19 @@ export default Vue.extend({
     padding: .3rem
     border-radius: .2rem
     margin-left: -.3rem
+    .icon
+      float: right
   .main-view
     position: relative
     margin-bottom: 3.5rem
     h1
       font-weight: 900
       margin-bottom: 1rem
-      display: inline-block
+      display: block
       padding: .2rem
       font-size: 1.8rem
       margin-left: -.2rem
       color: var(--secondary)
+      .icon
+        float: right
 </style>
