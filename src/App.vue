@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <router-view class="main-view" />
-    <div id="bg" />
+    <div id="bg">
+      <div class="one square"></div>
+      <div class="two square"></div>
+    </div>
     <Nav />
   </div>
 </template>
@@ -30,7 +33,24 @@ export default Vue.extend({
     width: 100%
     opacity: .2
     z-index: -1
-    // background: url('./assets/img/chevron.png') repeat
+    .square
+      position: fixed
+      opacity: 1
+      &.one
+        height: 80%
+        width: 70%
+        background: var(--green)
+        top: -40%
+        transform: rotate(50deg)
+        z-index: -2
+      &.two
+        width: 60%
+        height: 150%
+        background: var(--honey-dew)
+        top: -40%
+        left: 10%
+        transform: rotate(30deg)
+        z-index: -3
   .header
     margin: 1.5rem 0
     font-weight: 900
