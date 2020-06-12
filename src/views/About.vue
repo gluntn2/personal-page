@@ -56,6 +56,8 @@ export default Vue.extend({
 </script>
 
 <style lang="sass" scoped>
+  h1
+    margin-bottom: 2rem
   .main
     padding: 1rem
   .about
@@ -69,10 +71,10 @@ export default Vue.extend({
     padding: 0
     display: block
     a
-      font-size: 1.1rem
-      font-weight: 700
+      text-transform: uppercase
       display: block
-      padding: .5rem
+      font-size: .8rem
+      padding: .8rem 1rem
       color: var(--primary)
       background: var(--secondary)
       border-radius: .2rem

@@ -37,6 +37,8 @@ export default Vue.extend({
     text-decoration: none
     font-size: .8rem
     margin-bottom: 1rem
+    padding: .8rem 1rem
+    text-transform: uppercase
   .image-series
     display: block
     overflow-y: hidden
