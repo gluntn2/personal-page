@@ -10,18 +10,20 @@
     </div>
     <div class="item">
       <div class="header">
-        Lorem Ipsum
+        Haskell projects
         </div>
       <div class="image-series">
+        <div class="image"></div>
+        <div class="image"></div>
         <div class="image"></div>
       </div>
       <div class="info">
         <ul>
-          <li>JavaScript</li>
-          <li>Vue</li>
+          <li>Haskell</li>
         </ul>
         <div class="desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatum inventore voluptatem! At sapiente reiciendis magnam facilis, veniam non maiores quaerat ratione fugit suscipit, aperiam architecto quis sequi aut consectetur.
+          A variety of Haskell projects I've been working on to better my knowledge of Haskell, and functional programming
+          in general. Not every project has any real usage, but just used for my own sake to teach myself new concepts.
         </div>
       </div>
     </div>
@@ -56,7 +58,6 @@ export default Vue.extend({
 <style lang="sass" scoped>
   .main
     padding: 1rem
-    overflow: hidden
   .about
     margin-bottom: 1rem
     color: var(--secondary)
@@ -69,16 +70,18 @@ export default Vue.extend({
     border-radius: .2rem
     color: var(--secondary)
     box-shadow: 2px 2px 0px 0px rgba(#333, .2)
+    overflow: hidden
     .github
       float: right
     .image-series
-      display: block
-      overflow-y: hidden
-      width: 500%
+      display: flex
+      overflow-x: scroll
+      &::-webkit-scrollbar
+        display: none
       .image
         display: inline-block
-        height: 7rem
-        width: 12.46rem
+        min-height: 7rem
+        min-width: 12.46rem
         background: var(--secondary)
         margin-bottom: 1rem
         margin-right: 1rem
